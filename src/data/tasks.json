@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "food": "Pizza1",
+    "date": "2024-07-30",
+    "description": "Cheese Pizza",
+    "completed": false,
+    "timestamp": "2024-07-30"
+  },
+  {
+      "id": 2,
+      "food": "Pizza2",
+      "date": "2024-07-30",
+      "description": "Cheese Pizza",
+      "completed": false,
+      "timestamp": "2024-07-30 "
+    },
+    {
+      "id": 3,
+      "food": "Pizza3",
+      "date": "2024-07-30",
+      "description": "Cheese Pizza",
+      "completed": true,
+      "timestamp": "2024-07-30 "
+    }
+]

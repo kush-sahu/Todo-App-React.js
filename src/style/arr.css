@@ -1,0 +1,69 @@
+.arrBox{
+    color: white;
+    background-color: rgb(60, 30, 143);
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+.arrTodo{
+    
+    background-color: aliceblue;
+    color: #000;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 1%;
+    border: 2px solid rgb(121, 121, 156);
+    margin: 3px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: rgb(254, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+background-color: rgb(102, 7, 136);
+border:  2px solid rgb(137, 137, 169);
+    width: 55%;
+    
+
+}
+
+.search{
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 5px;
+    width: 25vw;
+}
+.descripton{
+    resize: both;
+   
+}
+@media screen and (max-width: 900px) {
+    .search{
+        width: 52vw;
+    }
+    .arrTodo{
+        width: 90vw;
+    }
+    .description{
+        width: 80%;
+   
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
