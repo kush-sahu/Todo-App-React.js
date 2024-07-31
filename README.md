@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 
 4.  Start the development server
 
-   npm start
+   npm run dev
 
 
 Usage
