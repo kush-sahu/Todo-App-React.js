@@ -9,7 +9,17 @@ import "../style/arr.css"
 import taskData from '../data/tasks.json';
 
 const Arr = () => {
-    
+    const [arr, setArr] = useState([
+        {
+            "id": 1,
+            "food": "Lern Frontend",
+            "date": "2024-07-30",
+            "description": "Cheese Pizza",
+            "completed": true,
+            "timestamp": "2024-07-30 "
+          }
+
+    ]);
     const [myval, setMyval] = useState("");
     const [myval2, setMyval2] = useState("");
     const [editIndex, setEditIndex] = useState(null);
@@ -17,7 +27,7 @@ const Arr = () => {
     const [editDate, setEditDate] = useState("");
     const [search, setSearch] = useState("");
     const [expanded, setExpanded] = useState(null);
-    const [arr, setArr] = useState(taskData);
+    
     const [desc,setdesc]=useState("")
     const handleDone = (index) => {
         const updatedArr = arr.map((item, i) => {
