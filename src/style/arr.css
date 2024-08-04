@@ -39,8 +39,8 @@ border:  2px solid rgb(137, 137, 169);
     margin: 5px;
     width: 25vw;
 }
-.descripton{
-    resize: both;
+.descripton textarea{
+    resize: horizontal;
    
 }
 @media screen and (max-width: 900px) {
@@ -52,9 +52,12 @@ border:  2px solid rgb(137, 137, 169);
     }
     .description{
         width: 80%;
-   
+ 
     }
-
+    .descripton textarea{
+        resize: horizontal;
+       
+    }
 }
 
 

@@ -36,7 +36,8 @@ const Arr = () => {
     const handleInput2 = (event) => setMyval2(event.target.value);
     const handlefordesc=(event)=>setdesc(event.target.value);
 
-    const handleAdd = () => {
+    const handleAdd = (event) => {
+        event.preventDefault();
         if (myval !== "" && myval2 !== "") {
             const newItem = { food: myval, date: myval2, description: desc, timestamp: myval2, completed: false };
             setArr([...arr, newItem]);

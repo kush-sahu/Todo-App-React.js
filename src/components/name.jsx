@@ -1,3 +1,4 @@
+import { Form } from "react-router-dom";
 import "../style/arr.css"
 import React from 'react';
 
@@ -5,8 +6,8 @@ const Name = ({ handleInput, handleInput2, handleAdd, handleOnKey,handlefordesc,
     return (
         <>
             
-            <div >
-            <button onClick={handleAdd} className=' btn btn-success  '  >ADD</button>
+            <form  onSubmit={handleAdd}>
+            <button  className=' btn btn-success  '  >ADD</button>
                 <input 
                 value={myval}
                     type="text" 
@@ -28,11 +29,11 @@ const Name = ({ handleInput, handleInput2, handleAdd, handleOnKey,handlefordesc,
                 className='w-15 p-2 h-24'
                 type="text" 
                 onChange={(event)=>handlefordesc(event)}
-                
+                style={{resize:'both'}}
                  />
             
                 
-            </div>
+            </form>
         </>
     );
 }
