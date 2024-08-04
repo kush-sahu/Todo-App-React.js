@@ -100,7 +100,7 @@ const Arr = () => {
 
     return (
         <center className="arrBox">
-            <h2 style={{color:'white'}}>Todo App</h2>
+            <h2 style={{color:'white'}}>Task Management</h2>
             <input
                 type="text"
                 placeholder="Search for your task"
