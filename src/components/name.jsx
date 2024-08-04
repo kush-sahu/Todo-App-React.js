@@ -1,13 +1,14 @@
 import "../style/arr.css"
 import React from 'react';
 
-const Name = ({ handleInput, handleInput2, handleAdd, handleOnKey,handlefordesc }) => {
+const Name = ({ handleInput, handleInput2, handleAdd, handleOnKey,handlefordesc,myval,myval2 }) => {
     return (
         <>
             
             <div >
             <button onClick={handleAdd} className=' btn btn-success  '  >ADD</button>
                 <input 
+                value={myval}
                     type="text" 
                     placeholder="Enter your task" 
                     onChange={handleInput} 
@@ -16,6 +17,7 @@ const Name = ({ handleInput, handleInput2, handleAdd, handleOnKey,handlefordesc 
                     
                 />
                  <input 
+                 value={myval2}
                 className='w-15 p-2'
                     type="date" 
                     onChange={handleInput2} 

@@ -40,9 +40,9 @@ const Arr = () => {
         if (myval !== "" && myval2 !== "") {
             const newItem = { food: myval, date: myval2, description: desc, timestamp: myval2, completed: false };
             setArr([...arr, newItem]);
-            // setMyval(""); // Clear input after adding
-            // setMyval2(""); // Clear input after adding
-            // setdesc("");
+            setMyval(""); // Clear input after adding
+            setMyval2(""); // Clear input after adding
+            setdesc("");
         }
     };
 
@@ -98,6 +98,8 @@ const Arr = () => {
                 className="search"
             />
             <Name
+               myval={myval}
+               myval2={myval2}
                 handleInput={handleInput}
                 handleInput2={handleInput2}
                 handleAdd={handleAdd}
