@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository
    
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/kush-sahu/Todo-App-React.js/edit/main/README.md
 
 2. Navigate to the project directory
    
