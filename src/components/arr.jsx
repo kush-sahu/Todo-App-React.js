@@ -6,7 +6,7 @@
 import React, { useState } from "react";
 import Name from "./name";
 import "../style/arr.css"
-import taskData from '../data/tasks.json';
+// import taskData from '../data/tasks.json';
 
 const Arr = () => {
     const [arr, setArr] = useState([
