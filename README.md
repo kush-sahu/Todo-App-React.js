@@ -29,6 +29,7 @@ The Todo App is a simple yet powerful tool to help you manage your daily tasks e
 - **Tools:**
   - Visual Studio Code
   - GitHub
+## Front View
 ![Alt text](todo.png)
 
 ## Installation
